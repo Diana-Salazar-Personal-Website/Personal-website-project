@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+span {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    background-color: gray;
+    color: orange;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+section>img {
+    height: 175px;
+}
+
+section:nth-of-type(odd)>img {
+    float: left;
+    margin: 0 24px 24px 0;
+}
+
+
+section:nth-of-type(even)>img {
+    float: right;
+    margin: 0 0 24px 24px;
+}
+
+section {
+    border-top: 3px solid olivedrab;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    background-color: green;
+}
